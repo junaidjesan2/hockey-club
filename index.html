@@ -15,15 +15,17 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="mx-4">
-    <header class="flex justify-between items-center mt-4 lg:mt-12">
-        <div class="flex items-center gap-4">
-          <i class="fa-solid fa-bars lg:hidden"></i>
-          <h1 class="text-2xl lg:text-4xl">
-            Hockey<span class="text-[#ff4240]">'</span>s
-          </h1>
-        </div>
-      <div class="hidden md:flex gap-11">
+  <body class="bg-[#FFF]">
+    <header
+      class="max-w-[335px] lg:max-w-[1170px] mx-auto flex justify-between items-center py-4 lg:py-14"
+    >
+      <div class="flex items-center gap-4">
+        <i class="fa-solid fa-bars lg:hidden text-black"></i>
+        <h1 class="text-2xl lg:text-4xl font-bold text-black">
+          Hockey<span class="text-[#ff4240]">'</span>s
+        </h1>
+      </div>
+      <div class="hidden md:flex gap-11 text-lg">
         <a href="#" class="text-[#ff4240]">Home</a>
         <a href="#">About</a>
         <a href="#">pages</a>
@@ -35,14 +37,112 @@
           class="hidden md:flex fa-solid fa-magnifying-glass text-[#89898B]"
         ></i>
         <button
-          class="text-xl px-4 py-2 lg:px-6 lg:py-4 bg-[#FF4240] rounded-lg"
+          class="text-xl px-4 py-2 lg:px-6 lg:py-4 bg-[#FF4240] rounded-lg text-white"
         >
           Get Ticket
         </button>
       </div>
     </header>
-    <footer>
-      
+    <main class="max-w-[335px] lg:max-w-[1170px] mx-auto">
+      <div
+        class="text-center border-y-2 py-6 lg:py-8 border-y-[rgba(19, 19, 24, 0.20)] border-dashed"
+      >
+        <h1 class="text-xl lg:text-4xl text-black mb-3 lg:mb-6 font-semibold">
+          Professional Hockeys Club
+        </h1>
+        <h1 class="text-base lg:text-lg lg:w-2/3 mx-auto">
+          join us for thrilling matches, intense training sessions, and a shared
+          love for the game. Let's skate together towards victory and create
+          unforgettable moments on and off the rink!"
+        </h1>
+      </div>
+      <section class="grid grid-cols-1 lg:grid-cols-4 gap-8 mt-6 mb-24">
+        <div class="flex flex-col items-center">
+          <div class="radial-progress text-error h-28 w-28 mb-6" style="--value:87;" role="progressbar">87%</div>
+          <h1 class="text-xl text-center">Prayer Facility</h1>
+          <h1 class="text-center">Whether you're seeking personal growth, professional development,</h1>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="radial-progress text-success h-28 w-28 mb-6" style="--value:95;" role="progressbar">95%</div>
+          <h1 class="text-xl text-center">Experienced Coach</h1>
+          <h1 class="text-center">simply a new adventure, our program provides a dynamic platform for exploration and achievement.</h1>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="radial-progress text-warning h-28 w-28 mb-6" style="--value:90;" role="progressbar">90%</div>
+          <h1 class="text-xl text-center">Senior Player</h1>
+          <h1 class="text-center">Join us in unlocking your full potential and embracing a future filled with possibilities.</h1>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="radial-progress text-info h-28 w-28 mb-6" style="--value:80;" role="progressbar">80%</div>
+          <h1 class="text-xl text-center">Experienced Coach</h1>
+          <h1 class="text-center">Whether you're a seasoned player or a rookie, join us for thrilling matches, intense training sessions, and a shared love for the game. </h1>
+        </div>
+        
+      </section>
+      <div
+        class="text-center border-y-2 py-6 lg:py-8 border-y-[rgba(19, 19, 24, 0.20)] border-dashed"
+      >
+        <h1 class="text-xl lg:text-4xl text-black mb-3 lg:mb-6 font-semibold">
+          Program Sections
+        </h1>
+        <h1 class="text-base lg:text-lg lg:w-2/3 mx-auto">
+          Embark on a transformative journey with our innovative program. Designed to inspire, educate, and empower, our diverse offerings cater to various interests and skill levels.
+        </h1>
+      </div>
+    </main>
+    <footer class="bg-[#131318]">
+      <article
+        class="lg:flex lg:gap-40 lg:py-24 py-10 px-10 lg:w-[1170px] mx-auto"
+      >
+        <div class="lg:w-1/4 text-center lg:text-start">
+          <h1 class="text-2xl text-white">Get In Touch</h1>
+          <h5 class="text-md my-2">
+            Welcome to the heart of hockey passion! Our club is a tight-knit
+            community where skill meets camaraderie on the ice.
+          </h5>
+          <h1 class="flex items-center justify-center lg:justify-start gap-3">
+            <i class="fa-light fa-envelope"></i
+            ><span>junaidjesa2@gmail.com</span>
+          </h1>
+          <h1 class="flex items-center gap-3 justify-center lg:justify-start">
+            <i class="fa-light fa-phone"></i>
+            <span>+880 1918239842</span>
+          </h1>
+        </div>
+        <section
+          class="grid mt-10 lg:grid-cols-3 grid-cols-2 mx-auto w-3/4 text-center"
+        >
+          <div class="">
+            <h1 class="text-lg mb-7 text-white">Company</h1>
+            <div class="gap-3 flex flex-col">
+              <a href="">About Us</a>
+              <a href="">Leadership</a>
+              <a href="">Careers</a>
+              <a href="">News & Article</a>
+              <a href="">Legal Notice</a>
+            </div>
+          </div>
+          <div>
+            <h1 class="text-lg mb-7 text-white">Support</h1>
+            <div class="gap-3 flex flex-col">
+              <a href="">Help Center</a>
+              <a href="">FAQ</a>
+              <a href="">Ticket Support</a>
+              <a href="">Contact Us</a>
+            </div>
+          </div>
+          <div>
+            <h1 class="text-lg mb-7 text-white mt-10">Services</h1>
+            <div class="gap-3 flex flex-col">
+              <a href="">Academy</a>
+              <a href="">Group Lesson</a>
+              <a href="">Private Lesson</a>
+              <a href="">Hockeys for Kids</a>
+              <a href="">Hockeys for Adult</a>
+            </div>
+          </div>
+        </section>
+      </article>
     </footer>
   </body>
 </html>
